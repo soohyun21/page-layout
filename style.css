@@ -147,10 +147,57 @@ p{
 }
 
 /*program*/
+
+.program{
+	background-color: #fff;
+}
+
+.program .row:first-child{
+	margin-bottom: 32px;;
+}
 .section-category{
 	color:#009B4D;
 }
 
+.program .col-md-4{
+	margin-bottom: 20px;
+}
+
+.program .col-md-4:last-child{
+	margin-bottom: 20px;
+}
+.program-card{
+	display:block;
+	padding: 24px 0 32px;
+	border-radius: 8px;
+	text-align:center;
+	background-color: #fff;
+	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+	transition:background-color 300ms ease-in-out, 
+	box-shadow 300ms ease-in-out;
+}
+.program-card:hover{
+	background-color: #3141C5;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	
+}
+.program-card:hover strong{
+	color:white;
+}
+
+.program-card img{
+	display:block;
+	width:auto;
+	height:195px;
+	margin: 0 auto 16px;
+	transition: color 500ms ease-in-out;
+}
+
+.program-card strong{
+	font-size: 18px;
+	line-height: 1.3333333;
+	letter-spacing: -0.02em;
+}
 /* >=768px(Desktop) */
 
 @media screen and (min-width: 768px) {
@@ -182,7 +229,7 @@ p{
 		font-size: 56px;
 		line-height: 1;
 	}
-	
+
 	/* Landing */
 	.landing-content{
 		height:auto;
@@ -217,6 +264,17 @@ p{
 	/*program*/
 	.program{
 		text-align: center;
+	}
+
+	.program .row:first-child{
+		margin-bottom: 72px;
+	}
+	.program-card img{
+		margin-bottom: 24px;
+	}
+	.program-card strong{
+		font-size: 20px;
+		line-height: 1.2;
 	}
 }
 /* Custom Grid System - Fix container width*/
