@@ -112,7 +112,21 @@ p{
 	margin-right:8px;
 }
 
-
+/*sercive*/
+.service{
+	background-color: #F4F5F7;
+	padding:80px 0;
+}
+.service-title{
+	font-size: 22px;
+	line-height: 1.363636363636;
+	letter-spacing: -0.04em;
+	color: #2B292D;
+	margin-bottom: 16px;
+}
+.service .col-12:first-child{
+	margin-bottom: 40px;
+}
 
 /* >=768px(Desktop) */
 
@@ -151,6 +165,16 @@ p{
 	.landing .button-group .fill-button:first-child{
 		margin-right: 16px;
 	}
+}
+
+/*Service */
+.service-title{
+	font-size: 26px;
+	line-height: 1.307692307;
+}
+
+.landing .button-group .fill-button:first-child{
+	margin-bottom: 0;
 }
 
 /* Custom Grid System - Fix container width*/
