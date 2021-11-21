@@ -198,6 +198,38 @@ p{
 	line-height: 1.3333333;
 	letter-spacing: -0.02em;
 }
+
+/*curriculum*/
+
+.curriculum{
+	background-color: #fff;
+}
+.curriculum .row:first-child{
+	margin-bottom: 40px;
+}
+
+.curriculum .row:last-child .col-12:first-child{
+	margin-bottom: 40px;
+}
+
+.curriculum .section-desc{
+	margin-bottom: 32px;
+}
+.curriculum .section-category{
+	color:#0189D1;
+}
+.curriculum-img{
+	display:none;
+}
+
+.curriculum-detail-desc{
+	font-size: 15px;
+	line-height: 1.4666666;
+	letter-spacing: -0.01em;
+	color:#2B292D;
+}
+
+
 /* >=768px(Desktop) */
 
 @media screen and (min-width: 768px) {
@@ -276,6 +308,36 @@ p{
 		font-size: 20px;
 		line-height: 1.2;
 	}
+
+
+	/*curriculum*/
+
+	.curriculum .row:first-child{
+		margin-bottom: 24px;
+	}
+	.curriculum .row:last-child .col-12:first-child{
+		margin-bottom: 0;
+	}
+	.curriculum .section-desc{
+		margin-bottom: 72px;
+	}
+	.curriculum-detail-desc{
+		font-size: 18px;
+		line-height: 1.444444444;
+	}
+
+	.curriculum-img{
+		display:block;
+	}
+
+	.curriculum-img img{
+		display:block;
+		width:100%;
+		max-width: 425px;
+		height:auto;
+	}
+
+	
 }
 /* Custom Grid System - Fix container width*/
 
